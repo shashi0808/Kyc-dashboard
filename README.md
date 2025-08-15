@@ -1,6 +1,6 @@
 # KYC Dashboard
 
-A modern, responsive KYC (Know Your Customer) dashboard built with Next.js 14, TypeScript, and Tailwind CSS. This dashboard provides comprehensive analytics and management tools for KYC processes, featuring interactive charts, real-time data visualization, and a clean, professional interface.
+A modern, responsive KYC (Know Your Customer) dashboard built with Next.js 15, TypeScript, and Tailwind CSS. This dashboard provides comprehensive analytics and management tools for KYC processes, featuring interactive charts, real-time data visualization, and a clean, professional interface.
 
 ## ✨ Features
 
