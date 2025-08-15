@@ -1,6 +1,12 @@
+'use client'
+
 import Link from 'next/link'
 
 export default function CleanTest() {
+  const handleButtonClick = () => {
+    alert('Button clicked! No overlay blocking interaction.')
+  }
+
   return (
     <div className="min-h-screen bg-gray-100 p-8">
       <div className="max-w-4xl mx-auto">
@@ -16,7 +22,7 @@ export default function CleanTest() {
           
           <button 
             className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-            onClick={() => alert('Button clicked! No overlay blocking interaction.')}
+            onClick={handleButtonClick}
           >
             Test Button - Click Me
           </button>
