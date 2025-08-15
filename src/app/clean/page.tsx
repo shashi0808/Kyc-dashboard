@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function CleanTest() {
   return (
     <div className="min-h-screen bg-gray-100 p-8">
@@ -23,24 +25,24 @@ export default function CleanTest() {
         <div className="bg-white rounded-lg shadow-md p-6">
           <h2 className="text-xl font-semibold mb-4">Navigation Test</h2>
           <div className="space-y-2">
-            <a 
+            <Link 
               href="/" 
               className="block px-4 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors"
             >
               ← Back to Full Dashboard
-            </a>
-            <a 
+            </Link>
+            <Link 
               href="/static" 
               className="block px-4 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors"
             >
               → Go to Static Dashboard
-            </a>
-            <a 
+            </Link>
+            <Link 
               href="/simple" 
               className="block px-4 py-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors"
             >
               → Go to Simple Dashboard
-            </a>
+            </Link>
           </div>
         </div>
       </div>

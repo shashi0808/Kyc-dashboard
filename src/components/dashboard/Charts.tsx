@@ -1,7 +1,6 @@
 'use client'
 
 import dynamic from 'next/dynamic'
-import { ChartData, PANData } from '@/lib/types'
 import { LoadingSkeleton } from '@/components/ui/LoadingSkeleton'
 
 const BarChart = dynamic(
@@ -19,10 +18,5 @@ const PieChart = dynamic(
     loading: () => <LoadingSkeleton className="h-80 w-full" />
   }
 )
-
-interface ChartsProps {
-  barData: ChartData[]
-  pieData: PANData
-}
 
 export { BarChart, PieChart }

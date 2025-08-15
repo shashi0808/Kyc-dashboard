@@ -10,9 +10,6 @@ const Bar = dynamic(() => import('recharts').then(mod => ({ default: mod.Bar }))
 const XAxis = dynamic(() => import('recharts').then(mod => ({ default: mod.XAxis })), { ssr: false })
 const YAxis = dynamic(() => import('recharts').then(mod => ({ default: mod.YAxis })), { ssr: false })
 const ResponsiveContainer = dynamic(() => import('recharts').then(mod => ({ default: mod.ResponsiveContainer })), { ssr: false })
-const PieChart = dynamic(() => import('recharts').then(mod => ({ default: mod.PieChart })), { ssr: false })
-const Pie = dynamic(() => import('recharts').then(mod => ({ default: mod.Pie })), { ssr: false })
-const Cell = dynamic(() => import('recharts').then(mod => ({ default: mod.Cell })), { ssr: false })
 
 // Data exactly matching the UI image from photo
 const barChartData = [

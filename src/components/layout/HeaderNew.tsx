@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-import { Search, Bell, ChevronDown, Calendar } from 'lucide-react'
+import { Search, Bell, ChevronDown } from 'lucide-react'
 
 export default function HeaderNew() {
   return (

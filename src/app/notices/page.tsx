@@ -3,7 +3,7 @@
 import React, { useState } from 'react'
 import SidebarNew from '@/components/layout/SidebarNew'
 import HeaderNew from '@/components/layout/HeaderNew'
-import { Bell, Calendar, AlertCircle, Info, CheckCircle, X, Download, Search } from 'lucide-react'
+import { Bell, Calendar, AlertCircle, Info, CheckCircle, Download, Search } from 'lucide-react'
 
 interface Notice {
   id: string
