@@ -197,3 +197,4 @@ If you encounter any issues or have questions, please:
 ---
 
 Built with ❤️ using Next.js 14 and modern web technologies.
+
